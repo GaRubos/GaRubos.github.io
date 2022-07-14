@@ -382,6 +382,7 @@ header .navbar-nav .nav-link_active {
 }
 
 .options1 .track {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   background-color: #031822;
@@ -415,6 +416,7 @@ header .navbar-nav .nav-link_active {
 }
 
 .options1 .axxel {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   width: 513px;
@@ -448,6 +450,7 @@ header .navbar-nav .nav-link_active {
 }
 
 .options1 .safe {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   width: 513px;
@@ -482,11 +485,11 @@ header .navbar-nav .nav-link_active {
 .options2 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 46px;
   justify-content: space-between;
 }
 
 .options2 .eco {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   background-color: #031822;
@@ -520,6 +523,7 @@ header .navbar-nav .nav-link_active {
 }
 
 .options2 .dino {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   background-color: #031822;
@@ -553,6 +557,7 @@ header .navbar-nav .nav-link_active {
 }
 
 .options2 .reverse {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   width: 513px;
