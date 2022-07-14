@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background: url(/img/Background.png) center center/cover no-repeat;
+  background: url(/img/Background.png);
   font-family: "DotGothic16", sans-serif;
   font-family: "PT Sans Narrow", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -714,7 +714,8 @@ footer {
   gap: 48px;
 }
 
-.navFooter a {
+
+.footerNavigation .navbar-nav a {
   color: #ffffff;
   font-family: Gilroy;
   font-size: 18px;
@@ -723,7 +724,7 @@ footer {
   text-decoration: none;
 }
 
-.navFooter .Primary {
+.footerNavigation .navbar-nav .nav-link_active {
   color: #00ffa3;
   font-family: Gilroy;
   font-size: 22px;
@@ -732,12 +733,6 @@ footer {
   text-decoration: none;
 }
 
-footer .footerLogoImg .footerLogoImg {
-  width: 194px;
-  height: 112px;
-  left: 120px;
-  top: 77px;
-}
 
 footer .footerlogo p {
   width: 435px;
