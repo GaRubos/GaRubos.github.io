@@ -1,5 +1,5 @@
 * {
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
 }
 body {
@@ -37,22 +37,6 @@ header {
   position: absolute;
   height: 112px;
 }
-
-/* .logo {
-  width: 194px;
-  height: 112px;
-} */
-
-/* .logo .headerLogo {
-  height: 97px;
-} */
-
-/* .nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 48px;
-  flex-wrap: wrap;
-} */
 
 header .navbar-nav a {
   color: #ffffff;
