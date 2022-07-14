@@ -35,30 +35,26 @@ body {
 
 header {
   position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 112px;
 }
 
-.logo {
+/* .logo {
   width: 194px;
   height: 112px;
-}
+} */
 
-.logo .headerLogo {
+/* .logo .headerLogo {
   height: 97px;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-between;
   gap: 48px;
   flex-wrap: wrap;
-}
+} */
 
-.nav a {
+header .navbar-nav a {
   color: #ffffff;
   font-family: Gilroy;
   font-size: 18px;
@@ -67,7 +63,7 @@ header {
   text-decoration: none;
 }
 
-.nav .Primary {
+header .navbar-nav .nav-link_active {
   color: #00ffa3;
   font-family: Gilroy;
   font-size: 22px;
