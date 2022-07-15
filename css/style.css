@@ -702,16 +702,16 @@ footer {
   background: url(/img/footerbg.png) center center/cover no-repeat;
 }
 
-.footerNavigation {
+/* .footerNavigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .navFooter {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  gap: 48px;
+  gap: 48px; */
 }
 
 
@@ -734,8 +734,7 @@ footer {
 }
 
 
-footer .footerlogo p {
-  width: 435px;
+footer .footerlogo{
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
